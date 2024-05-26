@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="tecnologia_sociedad.html">Tecnología y Sociedad</a></li>
+                <li><a href="tecnologia_negocios.html">Tecnología y Negocios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Formulario de Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono"><br><br>
+
+                <label for="razon">Razón del Contacto:</label>
+                <select id="razon" name="razon">
+                    <option value="consulta">Consulta</option>
+                    <option value="soporte">Soporte</option>
+                    <option value="sugerencia">Sugerencia</option>
+                    <option value="otros">Otros</option>
+                </select><br><br>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+                <br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Impacto de las Tecnologías Web por Ismael Calle</p>
+    </footer>
+</body>
+</html>
